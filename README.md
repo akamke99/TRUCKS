@@ -1,11 +1,16 @@
-create_output_directory()
+#create_output_directory()
  
-Propósito: Crea un directorio llamado output en el directorio actual si no existe.
+##Propósito: 
 
-create_density_plot(points, colors, indices, slice_axis, min_bound, max_bound, shifts, filename)
+Crea un directorio llamado output en el directorio actual si no existe.
+
+#create_density_plot(points, colors, indices, slice_axis, min_bound, max_bound, shifts, filename)
    
-Propósito: Genera una visualización de densidad de puntos en un espacio tridimensional (proyectado en 2D) y guarda la imagen resultante como un archivo PNG.
-Detalle técnico:
+##Propósito: 
+
+Genera una visualización de densidad de puntos en un espacio tridimensional (proyectado en 2D) y guarda la imagen resultante como un archivo PNG.
+
+###Detalle técnico:
 
 Filtrado de puntos:
 
